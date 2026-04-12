@@ -1,274 +1,33 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>PROTO3D | From Idea to Finished Product</title>
-    <meta
-      name="description"
-      content="PROTO3D helps startups and growing businesses turn ideas into finished physical products through design, engineering, additive manufacturing, and production management."
-    />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            colors: {
-              accent: '#2563EB',
-              ink: '#0B0D12',
-              mist: '#F4F6F8'
-            },
-            boxShadow: {
-              soft: '0 10px 30px rgba(11, 13, 18, 0.08)'
-            }
-          }
-        }
-      };
-    </script>
-  </head>
-  <body class="bg-white text-ink antialiased">
-    <header class="border-b border-gray-200/80 bg-white/90 backdrop-blur">
-      <div class="mx-auto flex w-full max-w-6xl items-center justify-between px-6 py-4 lg:px-8">
-        <a href="#" class="text-lg font-semibold tracking-tight">PROTO3D</a>
-        <nav class="hidden items-center gap-8 text-sm font-medium text-gray-700 md:flex">
-          <a href="#services" class="transition hover:text-ink">Services</a>
-          <a href="#process" class="transition hover:text-ink">Process</a>
-          <a href="#why-us" class="transition hover:text-ink">Why Us</a>
-          <a href="#contact" class="transition hover:text-ink">Contact</a>
-        </nav>
-      </div>
-    </header>
-
-    <main>
-      <section class="relative overflow-hidden">
-        <div class="mx-auto grid w-full max-w-6xl gap-12 px-6 py-20 lg:grid-cols-2 lg:items-center lg:px-8 lg:py-28">
-          <div>
-            <p class="mb-4 inline-flex rounded-full border border-blue-100 bg-blue-50 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-accent">
-              Product Development Partner
-            </p>
-            <h1 class="text-4xl font-semibold leading-tight tracking-tight sm:text-5xl">
-              From Idea to Finished Product
-            </h1>
-            <p class="mt-6 max-w-xl text-lg text-gray-600">
-              We design, optimize, and deliver your product—start to finish.
-            </p>
-            <div class="mt-8 flex flex-wrap gap-4">
-              <a
-                href="#contact"
-                class="inline-flex items-center justify-center rounded-lg bg-ink px-6 py-3 text-sm font-semibold text-white transition hover:bg-gray-800"
-                >Start Your Project</a
-              >
-              <a
-                href="#services"
-                class="inline-flex items-center justify-center rounded-lg border border-gray-300 px-6 py-3 text-sm font-semibold text-gray-700 transition hover:border-gray-400 hover:text-ink"
-                >See Services</a
-              >
-            </div>
-            <div class="mt-10 grid max-w-lg grid-cols-1 gap-4 sm:grid-cols-3">
-              <div class="rounded-lg border border-gray-200 p-4">
-                <p class="text-2xl font-semibold">1 Partner</p>
-                <p class="mt-1 text-sm text-gray-600">for your full build</p>
-              </div>
-              <div class="rounded-lg border border-gray-200 p-4">
-                <p class="text-2xl font-semibold">3 Phases</p>
-                <p class="mt-1 text-sm text-gray-600">clear and structured</p>
-              </div>
-              <div class="rounded-lg border border-gray-200 p-4">
-                <p class="text-2xl font-semibold">Faster</p>
-                <p class="mt-1 text-sm text-gray-600">time to market</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="rounded-2xl border border-gray-200 bg-mist p-8 shadow-soft lg:p-10">
-            <h2 class="text-xl font-semibold tracking-tight">What we handle for you</h2>
-            <ul class="mt-6 space-y-4 text-sm text-gray-700">
-              <li class="flex items-start gap-3">
-                <span class="mt-1 h-2 w-2 rounded-full bg-accent"></span>
-                Product design that aligns with your goals, users, and budget.
-              </li>
-              <li class="flex items-start gap-3">
-                <span class="mt-1 h-2 w-2 rounded-full bg-accent"></span>
-                Mechanical engineering for performance, reliability, and manufacturability.
-              </li>
-              <li class="flex items-start gap-3">
-                <span class="mt-1 h-2 w-2 rounded-full bg-accent"></span>
-                Additive manufacturing for rapid prototyping and low-volume production.
-              </li>
-              <li class="flex items-start gap-3">
-                <span class="mt-1 h-2 w-2 rounded-full bg-accent"></span>
-                Manufacturing management from supplier selection to final delivery.
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
-      <section id="services" class="border-t border-gray-200 bg-white">
-        <div class="mx-auto w-full max-w-6xl px-6 py-20 lg:px-8">
-          <div class="max-w-2xl">
-            <h2 class="text-3xl font-semibold tracking-tight">Services in 3 Phases</h2>
-            <p class="mt-4 text-gray-600">
-              A structured path that keeps your project moving with clarity at every stage.
-            </p>
-          </div>
-          <div class="mt-12 grid gap-6 md:grid-cols-3">
-            <article class="rounded-xl border border-gray-200 p-6">
-              <p class="text-sm font-semibold text-accent">Phase 01</p>
-              <h3 class="mt-3 text-xl font-semibold">Concept &amp; Feasibility</h3>
-              <p class="mt-3 text-sm leading-6 text-gray-600">
-                We validate your concept, assess technical risks, and define the most practical path to a buildable product.
-              </p>
-            </article>
-            <article class="rounded-xl border border-gray-200 p-6">
-              <p class="text-sm font-semibold text-accent">Phase 02</p>
-              <h3 class="mt-3 text-xl font-semibold">Design &amp; Optimization</h3>
-              <p class="mt-3 text-sm leading-6 text-gray-600">
-                Our team develops production-ready designs and optimizes parts for strength, cost, and manufacturing efficiency.
-              </p>
-            </article>
-            <article class="rounded-xl border border-gray-200 p-6">
-              <p class="text-sm font-semibold text-accent">Phase 03</p>
-              <h3 class="mt-3 text-xl font-semibold">Manufacturing &amp; Delivery</h3>
-              <p class="mt-3 text-sm leading-6 text-gray-600">
-                We coordinate manufacturing, quality checks, and logistics so your finished product arrives ready for launch.
-              </p>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section id="process" class="border-t border-gray-200 bg-mist">
-        <div class="mx-auto w-full max-w-6xl px-6 py-20 lg:px-8">
-          <div class="max-w-2xl">
-            <h2 class="text-3xl font-semibold tracking-tight">Simple 3-Step Process</h2>
-            <p class="mt-4 text-gray-600">
-              Designed for founders and teams that need momentum, not complexity.
-            </p>
-          </div>
-          <div class="mt-12 grid gap-6 md:grid-cols-3">
-            <div class="rounded-xl bg-white p-6 shadow-soft">
-              <p class="text-sm font-semibold text-accent">Step 1</p>
-              <h3 class="mt-2 text-lg font-semibold">Discovery Call</h3>
-              <p class="mt-3 text-sm leading-6 text-gray-600">
-                Share your idea, goals, and constraints. We map requirements and define scope.
-              </p>
-            </div>
-            <div class="rounded-xl bg-white p-6 shadow-soft">
-              <p class="text-sm font-semibold text-accent">Step 2</p>
-              <h3 class="mt-2 text-lg font-semibold">Build Plan</h3>
-              <p class="mt-3 text-sm leading-6 text-gray-600">
-                Receive a clear development plan with timelines, milestones, and deliverables.
-              </p>
-            </div>
-            <div class="rounded-xl bg-white p-6 shadow-soft">
-              <p class="text-sm font-semibold text-accent">Step 3</p>
-              <h3 class="mt-2 text-lg font-semibold">Execution</h3>
-              <p class="mt-3 text-sm leading-6 text-gray-600">
-                We execute end-to-end and keep you informed until your product is manufactured and delivered.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="why-us" class="border-t border-gray-200 bg-white">
-        <div class="mx-auto w-full max-w-6xl px-6 py-20 lg:px-8">
-          <div class="grid gap-12 lg:grid-cols-2 lg:items-start">
-            <div>
-              <h2 class="text-3xl font-semibold tracking-tight">Why Choose Us</h2>
-              <p class="mt-4 text-gray-600">
-                We remove friction from product development so you can focus on market fit, growth, and customers.
-              </p>
-            </div>
-            <div class="space-y-5">
-              <div class="rounded-xl border border-gray-200 p-6">
-                <h3 class="text-lg font-semibold">No vendor coordination</h3>
-                <p class="mt-2 text-sm leading-6 text-gray-600">
-                  One team manages design, engineering, prototyping, and production without handoff delays.
-                </p>
-              </div>
-              <div class="rounded-xl border border-gray-200 p-6">
-                <h3 class="text-lg font-semibold">No technical expertise required</h3>
-                <p class="mt-2 text-sm leading-6 text-gray-600">
-                  We translate complex technical decisions into clear recommendations you can act on quickly.
-                </p>
-              </div>
-              <div class="rounded-xl border border-gray-200 p-6">
-                <h3 class="text-lg font-semibold">Faster time to market</h3>
-                <p class="mt-2 text-sm leading-6 text-gray-600">
-                  Streamlined workflows and additive manufacturing reduce cycle time and accelerate launch readiness.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="contact" class="border-t border-gray-200 bg-ink text-white">
-        <div class="mx-auto w-full max-w-6xl px-6 py-20 lg:px-8">
-          <div class="grid gap-10 lg:grid-cols-2 lg:items-center">
-            <div>
-              <h2 class="text-3xl font-semibold tracking-tight">Start Your Project</h2>
-              <p class="mt-4 max-w-lg text-gray-300">
-                Tell us what you're building. We will reach out with a practical next step and timeline.
-              </p>
-            </div>
-            <form class="space-y-4 rounded-2xl bg-white p-6 text-ink shadow-soft" action="#" method="post">
-              <div>
-                <label for="name" class="mb-2 block text-sm font-medium text-gray-700">Name</label>
-                <input
-                  id="name"
-                  name="name"
-                  type="text"
-                  required
-                  class="w-full rounded-lg border border-gray-300 px-4 py-3 text-sm outline-none ring-accent transition focus:border-accent focus:ring-2"
-                  placeholder="Your full name"
-                />
-              </div>
-              <div>
-                <label for="email" class="mb-2 block text-sm font-medium text-gray-700">Email</label>
-                <input
-                  id="email"
-                  name="email"
-                  type="email"
-                  required
-                  class="w-full rounded-lg border border-gray-300 px-4 py-3 text-sm outline-none ring-accent transition focus:border-accent focus:ring-2"
-                  placeholder="you@company.com"
-                />
-              </div>
-              <div>
-                <label for="project" class="mb-2 block text-sm font-medium text-gray-700">Project Description</label>
-                <textarea
-                  id="project"
-                  name="project"
-                  rows="4"
-                  required
-                  class="w-full rounded-lg border border-gray-300 px-4 py-3 text-sm outline-none ring-accent transition focus:border-accent focus:ring-2"
-                  placeholder="Briefly describe your product idea, timeline, and goals."
-                ></textarea>
-              </div>
-              <button
-                type="submit"
-                class="inline-flex w-full items-center justify-center rounded-lg bg-ink px-6 py-3 text-sm font-semibold text-white transition hover:bg-gray-800"
-              >
-                Start Your Project
+<!doctype html> <html lang="en">   <head>     <meta charset="UTF-8" />     <meta name="viewport" content="width=device-width, initial-scale=1.0" />     <title>PROTO3D | From Idea to Finished Product</title>     <meta       name="description"       content="PROTO3D helps startups and growing businesses turn ideas into finished physical products through design, engineering, additive manufacturing, and manufacturing management."     />     <script src="https://cdn.tailwindcss.com"></script>     <script>       tailwind.config = {         theme: {           extend: {             fontFamily: {               sans: ['Inter', 'SF Pro Display', 'SF Pro Text', 'system-ui', 'sans-serif']             },             colors: {               base: '#06070B',               panel: '#0E1118',               line: 'rgba(255,255,255,0.12)',               accent: '#8FA8FF',               brand: '#59D9FF'             },             boxShadow: {               glow: '0 24px 64px rgba(69, 97, 255, 0.18)',               card: '0 10px 30px rgba(0, 0, 0, 0.35)'             },             backgroundImage: {               mesh: 'radial-gradient(circle at 20% 5%, rgba(143, 168, 255, 0.24), transparent 34%), radial-gradient(circle at 80% 0%, rgba(88, 101, 242, 0.22), transparent 32%), radial-gradient(circle at 50% 78%, rgba(168, 85, 247, 0.16), transparent 46%)'             }           }         }       };     </script>   </head>   <body class="bg-base text-white antialiased">     <div class="fixed inset-0 -z-10 bg-mesh"></div>      <header class="sticky top-0 z-50 border-b border-line bg-base/75 backdrop-blur-xl">       <div class="mx-auto flex w-full max-w-6xl items-center justify-between px-6 py-4 lg:px-8">         <a href="#" class="inline-flex items-center gap-2 text-sm font-semibold tracking-[0.18em] text-white">           <svg viewBox="0 0 90 48" class="h-7 w-auto" aria-hidden="true">             <defs>               <linearGradient id="logoWave" x1="0%" y1="0%" x2="100%" y2="100%">                 <stop offset="0%" stop-color="#59D9FF" />                 <stop offset="100%" stop-color="#8FA8FF" />               </linearGradient>             </defs>             <path d="M6 36 22 10a6 6 0 0 1 10 0l13 22a6 6 0 0 0 10 0L71 10a6 6 0 0 1 5-3h8L63 41a6 6 0 0 1-10 0L40 19a6 6 0 0 0-10 0L19 41H6Z" fill="url(#logoWave)" />           </svg>           <span class="text-brand">PROTO3D</span>         </a>         <nav class="hidden items-center gap-8 text-sm text-white/70 md:flex">           <a href="#services" class="transition hover:text-white">Services</a>           <a href="#process" class="transition hover:text-white">Process</a>           <a href="#why-us" class="transition hover:text-white">Why Us</a>           <a href="#contact" class="transition hover:text-white">Contact</a>         </nav>       </div>     </header>      <main>       <section class="mx-auto w-full max-w-6xl px-6 pb-20 pt-24 lg:px-8 lg:pb-28 lg:pt-32">         <div class="mx-auto max-w-4xl text-center">           <div class="mx-auto inline-flex items-center gap-3 rounded-full border border-white/15 bg-white/[0.04] px-4 py-2">             <svg viewBox="0 0 90 48" class="h-5 w-auto" aria-hidden="true">               <path d="M6 36 22 10a6 6 0 0 1 10 0l13 22a6 6 0 0 0 10 0L71 10a6 6 0 0 1 5-3h8L63 41a6 6 0 0 1-10 0L40 19a6 6 0 0 0-10 0L19 41H6Z" fill="#59D9FF" />             </svg>             <p class="text-xs font-semibold uppercase tracking-[0.22em] text-brand">End-to-End Product Development</p>           </div>           <h1 class="mt-6 text-4xl font-semibold leading-tight tracking-tight sm:text-5xl lg:text-6xl">             From Idea to Finished Product           </h1>           <p class="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-white/70">             We design, optimize, and deliver your product—start to finish.           </p>           <div class="mt-10 flex flex-wrap items-center justify-center gap-4">             <a               href="#contact"               class="inline-flex items-center justify-center rounded-full bg-white px-8 py-3 text-sm font-semibold text-black transition hover:scale-[1.02]"             >               Start Your Project             </a>             <a               href="#services"               class="inline-flex items-center justify-center rounded-full border border-white/20 px-8 py-3 text-sm font-semibold text-white/85 transition hover:border-white/40 hover:text-white"             >               Explore Services             </a>           </div>         </div>          <div class="mt-14 grid gap-5 md:grid-cols-3">           <article class="rounded-3xl border border-line bg-white/[0.04] p-7 shadow-card backdrop-blur">             <p class="text-sm font-medium text-white/55">01</p>             <h2 class="mt-3 text-xl font-semibold">Product Design</h2>             <p class="mt-3 text-sm leading-6 text-white/65">               We shape your concept into a clear product direction with practical user, form, and function decisions.             </p>           </article>           <article class="rounded-3xl border border-line bg-white/[0.04] p-7 shadow-card backdrop-blur">             <p class="text-sm font-medium text-white/55">02</p>             <h2 class="mt-3 text-xl font-semibold">Mechanical Engineering</h2>             <p class="mt-3 text-sm leading-6 text-white/65">               Our engineering team builds for durability, manufacturability, and confident performance in real use.             </p>           </article>           <article class="rounded-3xl border border-line bg-white/[0.04] p-7 shadow-card backdrop-blur">             <p class="text-sm font-medium text-white/55">03</p>             <h2 class="mt-3 text-xl font-semibold">Manufacturing Management</h2>             <p class="mt-3 text-sm leading-6 text-white/65">               From additive prototyping to supplier coordination, we manage execution so your launch stays on track.             </p>           </article>         </div>       </section>        <section id="services" class="border-y border-line bg-black/30">         <div class="mx-auto w-full max-w-6xl px-6 py-20 lg:px-8 lg:py-24">           <div class="max-w-2xl">             <p class="text-xs font-semibold uppercase tracking-[0.24em] text-accent/90">Services</p>             <h2 class="mt-4 text-3xl font-semibold tracking-tight sm:text-4xl">Three clear phases. One accountable team.</h2>           </div>            <div class="mt-12 grid gap-5 md:grid-cols-3">             <article class="rounded-3xl border border-line bg-panel/70 p-7">               <p class="text-xs font-semibold uppercase tracking-[0.2em] text-accent/90">Phase 01</p>               <h3 class="mt-3 text-2xl font-semibold">Concept &amp; Feasibility</h3>               <p class="mt-4 text-sm leading-6 text-white/65">                 We evaluate technical viability, identify constraints, and define the fastest realistic route to a successful product.               </p>             </article>             <article class="rounded-3xl border border-line bg-panel/70 p-7">               <p class="text-xs font-semibold uppercase tracking-[0.2em] text-accent/90">Phase 02</p>               <h3 class="mt-3 text-2xl font-semibold">Design &amp; Optimization</h3>               <p class="mt-4 text-sm leading-6 text-white/65">                 We create production-ready CAD and optimize components for quality, cost, tolerance, and faster iteration.               </p>             </article>             <article class="rounded-3xl border border-line bg-panel/70 p-7">               <p class="text-xs font-semibold uppercase tracking-[0.2em] text-accent/90">Phase 03</p>               <h3 class="mt-3 text-2xl font-semibold">Manufacturing &amp; Delivery</h3>               <p class="mt-4 text-sm leading-6 text-white/65">                 We coordinate additive manufacturing and production partners, oversee quality, and deliver your finished product.               </p>             </article>           </div>         </div>       </section>        <section id="process" class="mx-auto w-full max-w-6xl px-6 py-20 lg:px-8 lg:py-24">         <div class="max-w-2xl">           <p class="text-xs font-semibold uppercase tracking-[0.24em] text-accent/90">Process</p>           <h2 class="mt-4 text-3xl font-semibold tracking-tight sm:text-4xl">A simple 3-step workflow</h2>         </div>         <div class="mt-12 grid gap-5 md:grid-cols-3">           <article class="rounded-3xl border border-line bg-white/[0.04] p-7">             <p class="text-sm font-semibold text-accent/90">Step 1</p>             <h3 class="mt-3 text-xl font-semibold">Share the idea</h3>             <p class="mt-3 text-sm leading-6 text-white/65">               Tell us what you are building, your target customer, and your launch goals.             </p>           </article>           <article class="rounded-3xl border border-line bg-white/[0.04] p-7">             <p class="text-sm font-semibold text-accent/90">Step 2</p>             <h3 class="mt-3 text-xl font-semibold">Approve the plan</h3>             <p class="mt-3 text-sm leading-6 text-white/65">               We provide scope, technical recommendations, timeline, and milestones in plain language.             </p>           </article>           <article class="rounded-3xl border border-line bg-white/[0.04] p-7">             <p class="text-sm font-semibold text-accent/90">Step 3</p>             <h3 class="mt-3 text-xl font-semibold">Launch with confidence</h3>             <p class="mt-3 text-sm leading-6 text-white/65">               Our team executes from design through manufacturing and delivery while you focus on growth.             </p>           </article>         </div>       </section>        <section id="why-us" class="border-y border-line bg-black/35">         <div class="mx-auto w-full max-w-6xl px-6 py-20 lg:px-8 lg:py-24">           <div class="grid gap-8 lg:grid-cols-2">             <div>               <p class="text-xs font-semibold uppercase tracking-[0.24em] text-accent/90">Why Choose Us</p>               <h2 class="mt-4 text-3xl font-semibold tracking-tight sm:text-4xl">Built for founders and lean teams</h2>               <p class="mt-5 max-w-xl text-sm leading-7 text-white/65">                 If you do not have an in-house engineering team, we provide the structure and expertise to move from concept to production without chaos.               </p>             </div>             <div class="space-y-4">               <article class="rounded-3xl border border-line bg-panel/70 p-6">                 <h3 class="text-lg font-semibold">No vendor coordination</h3>                 <p class="mt-2 text-sm leading-6 text-white/65">We own the handoffs and supplier communication so you work with one accountable partner.</p>               </article>               <article class="rounded-3xl border border-line bg-panel/70 p-6">                 <h3 class="text-lg font-semibold">No technical expertise required</h3>                 <p class="mt-2 text-sm leading-6 text-white/65">We translate engineering complexity into clear decisions and practical next actions.</p>               </article>               <article class="rounded-3xl border border-line bg-panel/70 p-6">                 <h3 class="text-lg font-semibold">Faster time to market</h3>                 <p class="mt-2 text-sm leading-6 text-white/65">Additive manufacturing and integrated execution reduce delays and help you launch sooner.</p>               </article>             </div>           </div>         </div>       </section>        <section id="contact" class="mx-auto w-full max-w-6xl px-6 py-20 lg:px-8 lg:py-24">         <div class="grid gap-10 lg:grid-cols-2 lg:items-center">           <div>             <p class="text-xs font-semibold uppercase tracking-[0.24em] text-accent/90">Contact</p>             <h2 class="mt-4 text-3xl font-semibold tracking-tight sm:text-4xl">Start Your Project</h2>             <p class="mt-5 max-w-lg text-sm leading-7 text-white/65">               Share your project details and we will reply with a focused next step. No pressure. Just a clear path forward.             </p>           </div>                        <form id="contact-form" class="space-y-4">
+              <input name="name" placeholder="Name" class="w-full border p-3 rounded-lg bg-white text-black" required>
+              <input name="email" type="email" placeholder="Email" class="w-full border p-3 rounded-lg bg-white text-black" required>
+              <textarea name="message" placeholder="Describe your project" rows="4" class="w-full border p-3 rounded-lg bg-white text-black" required></textarea>
+              <button class="w-full bg-black text-white py-3 rounded-lg">
+                Submit
               </button>
             </form>
-          </div>
-        </div>
-      </section>
-    </main>
 
-    <footer class="border-t border-gray-200 bg-white">
-      <div class="mx-auto flex w-full max-w-6xl flex-col gap-3 px-6 py-8 text-sm text-gray-500 sm:flex-row sm:items-center sm:justify-between lg:px-8">
-        <p>&copy; <span id="year"></span> PROTO3D. All rights reserved.</p>
-        <p>Concept to production, managed end-to-end.</p>
-      </div>
-    </footer>
+            <p id="success-msg" class="hidden text-green-600 mt-4">Submitted successfully.</p>
 
-    <script>
-      document.getElementById('year').textContent = new Date().getFullYear();
-    </script>
-  </body>
-</html>
+            <script>
+            document.getElementById("contact-form").addEventListener("submit", async function(e) {
+              e.preventDefault();
+
+              const formData = new FormData(this);
+
+              const data = {
+                name: formData.get("name"),
+                email: formData.get("email"),
+                message: formData.get("message")
+              };
+
+              await fetch("https://script.google.com/macros/s/AKfycbxRWXGX4tW5JXRdNVEMM2F_rRYd4iCjvfODgmJDy4WlpX83-TKuCy1a0cf6DfKZvt5n/exec", {
+                method: "POST",
+                body: JSON.stringify(data)
+              });
+
+              document.getElementById("success-msg").classList.remove("hidden");
+              this.reset();
+            });
+            </script>         </div>       </section>     </main>      <footer class="border-t border-line py-8">       <div class="mx-auto flex w-full max-w-6xl flex-col gap-2 px-6 text-xs text-white/45 sm:flex-row sm:items-center sm:justify-between lg:px-8">         <p>&copy; <span id="year"></span> PROTO3D. All rights reserved.</p>         <p>Concept to production, delivered with speed and confidence.</p>       </div>     </footer>      <script>       document.getElementById('year').textContent = new Date().getFullYear();     </script>   </body> </html>
+
